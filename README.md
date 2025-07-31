@@ -8,22 +8,37 @@
 - Светлая и тёмная тема с переключателем
 - Зафиксированный размер окна
 - Удобный интерфейс на русском языке
+
 Запуск
+
 Установите зависимости:
+
 bash
 pip install PyQt5 requests
+
 Запустите приложение:
+
 bash
 python main.py
+
 Убедитесь, что у вас есть модули services.exchanger и core.converter с соответствующей логикой получения курсов и конвертации.
 
 Структура проекта
+
 Converter/
+
 -main.py
+
 -services/
+
 +exchanger.py
+
 -core/
+
 +converter.py
+
 Зависимости
+
 PyQt5
+
 requests (для загрузки курсов)
